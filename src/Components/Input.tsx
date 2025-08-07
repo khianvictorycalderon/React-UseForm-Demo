@@ -32,7 +32,7 @@ export const Input: React.FC<InputProps> = ({
       : "";
 
   return (
-    <>
+    <div>
       <label
         className={`pl-2 block text-sm font-medium mb-1 text-zinc-100 ${additionalClassName?.label ?? ""}`}
         htmlFor={props.id}
@@ -53,6 +53,6 @@ export const Input: React.FC<InputProps> = ({
           {feedback.message}
         </p>
       )}
-    </>
+    </div>
   );
 };
