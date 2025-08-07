@@ -1,5 +1,5 @@
 # React UseForm Demo
-A test project for using useform library
+A test project for using useform library. Tailwind included
 
 ## To run this project:
 1. Clone this repository `git clone https://github.com/khianvictorycalderon/React-UseForm-Demo.git`
@@ -13,3 +13,17 @@ This section is provided for reference only, to give you insight into how the pr
 
 ## Dependencies
 - `npm install useform`
+- `npm install tailwindcss @tailwindcss/vite`
+
+# Configuration Dependencies
+- Updated `vite.config.ts`:
+    ```
+    import tailwindcss from '@tailwindcss/vite'
+    export default defineConfig({
+    plugins: [
+        // ...
+        tailwindcss()
+        ],
+    })
+
+    ```
