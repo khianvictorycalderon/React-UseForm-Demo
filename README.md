@@ -15,7 +15,7 @@ This section is provided for reference only, to give you insight into how the pr
 - `npm install react-hook-form`
 - `npm install tailwindcss @tailwindcss/vite`
 
-# Configuration Dependencies
+## Configuration Dependencies
 - Updated `vite.config.ts`:
     ```
     import tailwindcss from '@tailwindcss/vite'
