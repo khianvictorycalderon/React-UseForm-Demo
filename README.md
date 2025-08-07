@@ -12,7 +12,7 @@ You don’t need to install anything manually, as all dependencies are already m
 This section is provided for reference only, to give you insight into how the project was set up.
 
 ## Dependencies
-- `npm install useform`
+- `npm install react-hook-form`
 - `npm install tailwindcss @tailwindcss/vite`
 
 # Configuration Dependencies
