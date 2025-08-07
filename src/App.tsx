@@ -1,7 +1,9 @@
+import { Input } from "./Components/Input";
+
 export default function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  )
+    <form className="max-w-4xl m-auto px-4">
+      <Input label="First Name" id="first_name"/>
+    </form>
+  );
 }
